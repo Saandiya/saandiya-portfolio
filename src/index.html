@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Saandiya | Computer Engineering @ Purdue</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="Saandiya, Computer Engineering, Purdue, ASIC Design, SystemVerilog, AI Hardware, RISC-V, Tensor Core, USB SoC" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Saandiya is a Computer Engineering student at Purdue University (GPA 3.89, graduating Dec 2025). Experienced in ASIC/FPGA design, AI accelerators, and digital design. Product Owner Intern at CIMB, AI Hardware Researcher in SoCET, and Python for Data Science UTA." />
 
     <link
       rel="stylesheet"
@@ -33,9 +33,6 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -45,15 +42,13 @@
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main">Saandiya KPS Mohan</span> <br />
+          I’m a Computer Engineering student passionate about <br />
+          <span class="text-color-main">AI hardware & fintech systems</span>.
         </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
         </p>
       </div>
     </section>
@@ -79,11 +74,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                I’m a Computer Engineering student at Purdue University (graduating December 2025, GPA 3.83).  
+                My work spans ASIC and FPGA design, AI hardware accelerators, and fintech systems.  
+                I’ve designed RISC-V FPUs, USB SoC modules, and convolution controllers for tensor cores. 
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Professionally, I’ve been a Product Owner Intern at CIMB, collaborating with designers and developers on mobile banking features, I serve as a UTA for Python for Data Science, and I work for the Krenicki Center for Business Analytics and Machine Learning at Purdue as Undergraduate Student Researcher – Machine Learning and Predictive Models.  
+                My career goal is to build <strong>ultra-low latency hardware for financial trading systems</strong>.
+              </p>
+              <p class="about-wrapper__info-text">
+                Outside of engineering, I enjoy <strong>traveling</strong>, discovering new <strong>food</strong>, and <strong>exploring national parks</strong>.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -112,29 +112,45 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">TCA (Tensor Compute Accelerator)</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    Developed the Tensor Compute Accelerator (TCA) featuring both GEMM and convolution controllers. 
+                    Integrated with a weight-stationary systolic array and 32-bank scratchpad memory, implementing im2col-based convolution and optimized data flow for high efficiency. 
+                    Designed, simulated, and verified modules with RTL, testbenches, and performance evaluation.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://docs.google.com/presentation/d/1lIEHfZK9VRijk5NyIesDra1bx8vj_TPr8nyfB-8WLEc/edit?usp=sharing"
                 >
-                  See Live
+                  View Slides
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="assets/report.pdf"
+                >
+                  Read Report
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/Purdue-SoCET/tensor-core/tree/master"
                 >
                   Source Code
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="assets/poster.pdf"
+                >
+                  View Poster
                 </a>
               </div>
             </div>
@@ -149,9 +165,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="AMP Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/AMP.png"
                     />
                   </div>
                 </a>
@@ -164,29 +180,44 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">RISC-V Floating Point Unit (FPU)</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Designed and implemented a single-precision IEEE-754 FPU for RISC-V, including adder, subtractor, and multiplier modules.  
+                    Contributed to SystemVerilog RTL design, testbench development, and verification using QuestaSim to ensure correctness, precision, and performance.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/FPU.pdf"
                 >
-                  See Live
+                  View Slides
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="assets/FPU_report.pdf"
+                >
+                  Read Report
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/Purdue-SoCET/FPU/tree/fpu_fa24"
                 >
                   Source Code
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="assets/FPU_poster.pdf"
+                >
+                  View Poster
                 </a>
               </div>
             </div>
@@ -201,9 +232,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="FPU Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/FPU_team.jpg"
                     />
                   </div>
                 </a>
@@ -216,18 +247,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Whack-A-Mole Game on STM32</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    Developed a reaction-time Whack-A-Mole game using an STM32F091 microcontroller, 32 x 32 LED matrix, and keypad.  
+                    Implemented multiple difficulty levels, scoring system, and persistent high-score storage using I2C EEPROM.  
+                    Designed modular firmware in C to control game logic, display, and input handling.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://youtube.com/shorts/n-H49iqz39U?si=zXYkXSGTap8rmiRI"
                 >
                   See Live
                 </a>
@@ -235,7 +267,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/Saandiya/whack-a-mole"
                 >
                   Source Code
                 </a>
@@ -254,7 +286,95 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/whack-a-mole.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Multicore RISC-V Processor</h3>
+                <div>
+                  <p class="mb-4">
+                    Designed and implemented a multicore RISC-V processor with caches to run single- and dual-threaded programs.  
+                    Built incrementally from single-cycle and pipelined designs, adding cache hierarchy, shared memory bus, and thread-level parallelism.  
+                    Evaluated throughput, instruction latency, and FPGA resource utilization, demonstrating improved scalability and performance.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="assets/437 final report.pdf"
+                >
+                  Read Report
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="CPU Top Level"
+                      class="img-fluid"
+                      src="assets/CPU block diagram.drawio.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">USB Full-Speed Bulk-Transfer Endpoint SoC</h3>
+                <div>
+                  <p class="mb-4">
+                    Designed and tested a USB Full-Speed Bulk-Transfer Endpoint as an AHB-Lite SoC module.  
+                    Implemented 16-entry, 16-bit data-width circular buffers for OUT/IN transactions with full/empty flags and read/write enable logic.  
+                    Developed a testbench to simulate token transactions and verify data correctness, ensuring reliable USB protocol handling.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="assets/Group 11 Submission Final Updated.pdf"
+                >
+                  Diagrams
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="CPU Top Level"
+                      class="img-fluid"
+                      src="assets/USB_top.jpg"
                     />
                   </div>
                 </a>
@@ -272,13 +392,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Open to internships or full-time roles in ASIC Design, Digital Design, or Data Science. Always happy to connect and discuss projects!</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:saandiya.mohan@gmail.com"
+            >Email Me</a
           >
         </div>
       </div>
@@ -292,13 +412,10 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://linkedin.com/in/kpsmohan" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/saandiya" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -307,34 +424,7 @@
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
+          © 2025 Saandiya KPS Mohan
         </p>
       </div>
     </footer>
